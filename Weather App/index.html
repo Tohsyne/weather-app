@@ -1,0 +1,41 @@
+<!-- HTML CODE -->
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font/Rimouski.css">
+    <link rel="manifest" href="/manifest.webmanifest" crossorigin="use-credentials">
+</head>
+<main>
+
+    <section class="container">
+        <div class="app-title"><p>Weather</p></div>
+        <div class="notification"></div>
+        <div class="weather-container">
+            <div class="weather-icon">
+                <img src="icons/unknown.png" alt= 'weather icon from skycons'></div>
+            <div class="temperature-value">
+                <p> -  </p></div>
+            <div class="temperature-description"><p> - </p></div>
+            <div class="location"><p> - </p></div>
+        </div>
+    </section>
+
+    <script src="app.js">
+        console.log(localStorage);
+    </script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.20.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+    
+</main>
+</html>
